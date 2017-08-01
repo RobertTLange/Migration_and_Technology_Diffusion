@@ -10,8 +10,11 @@ I would have loved to automate the complete pipeline by downloading the data set
 The repository contains both code and my final thesis. The code consists out of four files:
 
 master.sh - pipeline file for automated execution
+
 01_BAT_RL_2016_Imputation.R - computes missing values for the ln input variable using different methods
+
 02_BAT_RL_2016_Replication.do - replication and extending computations using the imputed variables
+
 03_BAT_RL_2016_Simulation IV.R - basic instrumental variables estimator simulations and display of relative bias.
 
 Please save the compressed data file and all code files in one folder and execute the master.sh file from the shell (bash master.sh). Before that make sure that you have a version of stata and R installed. The output should consist of three log-files which display the output of the computations. 
